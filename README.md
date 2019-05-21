@@ -2,6 +2,8 @@
 
 This is a minimalistic dark theme for Atom.
 
+it's recommended to use with rzx-dark-syntax [a link](https://atom.io/themes/rzx-dark-syntax) and roboto mono font from google fonts [a link](https://fonts.google.com/specimen/Roboto+Mono)
+
 ## How to install
 
 ```
