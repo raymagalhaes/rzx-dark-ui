@@ -9,4 +9,4 @@ apm install rzx-dark-ui
 ```
 # Screenshot
 
-![rzx-light-syntax-screenshot](https://user-images.githubusercontent.com/15671466/57981062-3e4c6880-7a09-11e9-90db-712fd35802e1.png)
+![rzx-dark-ui-screenshot](https://user-images.githubusercontent.com/15671466/58061973-d56f0880-7b4e-11e9-93ba-a44d7dbf4aa7.png)
