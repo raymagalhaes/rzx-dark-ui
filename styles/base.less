@@ -3,34 +3,33 @@
 // Used for global styles
 // Or to override certain Atom core styles
 // -------------------
-
 ::-webkit-scrollbar {
-   width: 10px;
+  width: 10px;
 }
-
 ::-webkit-scrollbar-track {
-   background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0);
 }
-
 ::-webkit-scrollbar-thumb {
-   background: #4a67cc;
+  background: @text-color;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-   background: #253467;
+  background: @text-color;
 }
-
+::-webkit-scrollbar-track-piece {
+  background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0);
+}
 body {
-   font-size       : @font-size;
-   color           : @text-color;
-   background-color: @app-background-color;
-   font-weight     : 900;
+  font-size       : @font-size;
+  color           : @text-color;
+  background-color: @app-background-color;
+  font-weight     : 900;
 }
-
 atom-pane {
-   border-right: 1px solid @base-border-color;
-
-   &:last-child {
-      border-right: none;
-   }
+  border-right: 1px solid @base-border-color;
+  &:last-child {
+    border-right: none;
+  }
 }

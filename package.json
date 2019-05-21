@@ -1,16 +1,16 @@
 {
-   "name": "rzx-light-ui",
-   "theme": "ui",
-   "version": "0.2.1",
-   "description": "A minimalist light theme for atom",
-   "keywords": [
-      "ui",
-      "theme",
-      "light"
-   ],
-   "repository": "https://github.com/raymagalhaes/rzx-light-ui",
-   "license": "MIT",
-   "engines": {
-      "atom": ">=1.0.0 <2.0.0"
-   }
+  "name": "rzx-dark-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "A minimalist dark theme for atom",
+  "keywords": [
+    "ui",
+    "theme",
+    "light"
+  ],
+  "repository": "https://github.com/raymagalhaes/rzx-dark-ui",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
 }

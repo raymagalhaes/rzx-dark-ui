@@ -6,10 +6,10 @@
 // Try to edit some of the values below to see your theme change.
 // A good start is to change the color of the `@base-background-color` variable.
 // Text Colors
-@text-color                      : #333;
-@text-color-subtle               : #333;
-@text-color-highlight            : #333;
-@text-color-selected             : #fff;
+@text-color                      : #56c7c4;
+@text-color-subtle               : #56c7c4;
+@text-color-highlight            : #FFF;
+@text-color-selected             : #FFF;
 @text-color-info                 : #09f;
 @text-color-success              : #090;
 @text-color-warning              : #c60;
@@ -18,14 +18,14 @@
 @background-color-success        : @text-color-success;
 @background-color-warning        : @text-color-warning;
 @background-color-error          : @text-color-error;
-@background-color-highlight      : darken(@base-background-color, 50%);
-@background-color-selected       : darken(@base-background-color, 30%);
-@app-background-color            : darken(@base-background-color, 10%); // Base colors
-@base-background-color           : #fff;
+@background-color-highlight      : lighten(@base-background-color, 5%);
+@background-color-selected       : lighten(@base-background-color, 5%);
+@app-background-color            : lighten(@base-background-color, 5%); // Base colors
+@base-background-color           : #1a262b;
 @base-border-color               : rgba(0,0,0,0); // Component colors
-@pane-item-background-color      : darken(@base-background-color, 5%);
+@pane-item-background-color      : lighten(@base-background-color, 5%);
 @pane-item-border-color          : @base-border-color;
-@input-background-color          : darken(@app-background-color, 15%);
+@input-background-color          : lighten(@app-background-color, 1%);
 @input-border-color              : @base-border-color;
 @tool-panel-background-color     : @base-background-color;
 @tool-panel-border-color         : @base-border-color;
@@ -35,13 +35,13 @@
 @panel-heading-border-color      : @base-border-color;
 @overlay-background-color        : lighten(@base-background-color, 5%);
 @overlay-border-color            : @base-border-color;
-@button-background-color         : darken(@base-background-color, 12%);
-@button-background-color-hover   : darken(@button-background-color, 13%);
+@button-background-color         : lighten(@base-background-color, 10%);
+@button-background-color-hover   : lighten(@button-background-color, 5%);
 @button-background-color-selected: @button-background-color-hover;
 @button-border-color             : @base-border-color;
 @tab-bar-background-color        : @base-background-color;
 @tab-bar-border-color            : @base-border-color;
-@tab-background-color            : darken(@tab-bar-background-color, 10%);
+@tab-background-color            : lighten(@tab-bar-background-color, 10%);
 @tab-background-color-active     : @tab-bar-background-color;
 @tab-border-color                : @base-border-color;
 @tree-view-background-color      : @base-background-color;

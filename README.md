@@ -1,11 +1,11 @@
-# Atom rzx light theme
+# Atom rzx dark theme
 
-This is a minimalistic light theme for Atom.
+This is a minimalistic dark theme for Atom.
 
 ## How to install
 
 ```
-apm install rzx-light-ui
+apm install rzx-dark-ui
 ```
 # Screenshot
 
